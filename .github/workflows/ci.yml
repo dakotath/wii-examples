@@ -13,5 +13,5 @@ jobs:
 
     - name: Build
       run: |
-        sudo pacman -Syu
+        sudo dkp-pacman -Syu
         make -j2
